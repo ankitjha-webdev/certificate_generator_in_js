@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Get Your Certificate for PadhegaIndia</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="favicon" href="favicon.ico">
+    <link rel="stylesheet" href="footer.css">
+</head>
+
+<body>
+    <header>
+        <img src="./cutm.jpg" alt="Cutm Logo">
+        <h2>Centurion Certificate Generator</h2>
+    </header>   
+    <main>
+
+        <label for="name">Type the Participant Name</label> <hr/>
+        <input required type="text" name="Name" autocomplete="name" placeholder="Participant Name" id="name" minlength="3"
+            maxlength="16">
+        <Button id="submitBtn">Get Certificate</Button>
+
+
+    </main>
+  <!-- Footer Start -->
+  <footer class="site-footer">
+    <div class="container">
+        <hr class="hr"/>
+      <div class="row">
+        <div class="col-sm-12 col-md-6" id="text-justify">
+          <h6>About Me</h6>
+          <p class="text-justify">Hi, I am Ankit Kumar, a computer Science Student at Centurion University of Technology and Management, Paralakhemundi(Odisha). Campus Ambassador at @HackerEarth, @Internshala, @IMUN, @LearnVern, @Hashcode. || Love to interact with people collaborate with them and always eager to learn new things and teach my fellow.</p>
+        </div>
+        <div class="col-md-4 col-sm-6 col-xs-12" id="social">
+            <ul class="social-icons">
+              <li><a class="facebook" href="https://github.com/ankitjha-webdev"><i class="fa fa-github"></i></a></li>
+              <li><a class="twitter" href="https://ankitkumar.engineer/"><i class="fa fa-globe"></i></a></li>
+              <li><a class="linkedin" href="https://www.linkedin.com/in/ankitkumarcse/"><i class="fa fa-linkedin"></i></a></li>   
+            </ul>
+          </div>
+      </div>
+      <hr>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8 col-sm-6 col-xs-12">
+          <p class="copyright-text">Copyright &copy; 2021 All Rights Reserved by 
+       <a href="ankitkumar.engineer">@Ankit Kumar</a>.
+          </p>
+        </div>
+
+        
+      </div>
+    </div>
+</footer>
+  <!-- Footer End -->
+    <script src="https://unpkg.com/pdf-lib@1.4.0"></script>
+    <script src="./FileSaver.js"></script>
+    <script src="https://unpkg.com/@pdf-lib/fontkit@0.0.4"></script>
+    <script src="./index.js"></script>
+</body>
+
+</html>
